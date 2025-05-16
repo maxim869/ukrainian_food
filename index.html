@@ -2,19 +2,43 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Українська кухня</title>
+    <title>100 Кактусів</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #006400;
+        }
+        .cactus-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .cactus-item {
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+        .cactus-item:hover {
+            background-color: #e8f5e9;
+        }
+        .info {
+            display: none;
+            margin-top: 10px;
+            color: #333333;
+        }
+    </style>
 </head>
 <body>
-    <h1>Українські страви</h1>
-    <ul>
-        <li>
-            <h2>Борщ</h2>
-            <p>Борщ — це традиційна українська страва з буряків, капусти та м’яса.</p>
-        </li>
-        <li>
-            <h2>Вареники</h2>
-            <p>Вареники — це тісто з начинкою (картопля, вишні, сир), зварене у воді.</p>
-        </li>
-    </ul>
-</body>
-</html>
+    <h1>100 видів кактусів</h1>
+    <div class="cactus-list">
+        <!-- Початок списку кактусів -->
